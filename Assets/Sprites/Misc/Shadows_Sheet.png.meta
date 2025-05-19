@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6731a9d96241c9049abeebf6b024bedc
+guid: 2c20fb74ae8336f42abc832a72a175b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,45 +123,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Shadows_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 121
-        height: 203
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f9dae863fadfe4a8e634ef4c16ebde
-      internalID: -727359868
+      spriteID: 46f22a666ea292d41b8c8635d0e3fa71
+      internalID: -323755470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: Shadows_Sheet_1
       rect:
         serializedVersion: 2
-        x: 125
+        x: 16
         y: 0
-        width: 121
-        height: 203
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2dd14a432561314c83bded28a8818d4
-      internalID: -839232450
+      spriteID: a93546c02002b7242a2d2590789cf2c2
+      internalID: -1486413043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadows_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca55b2a382ce5143a2237c7f316fe86
+      internalID: -1116369117
       vertices: []
       indices: 
       edges: []
@@ -180,8 +202,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle_0: -727359868
-      Idle_1: -839232450
+      Shadows_Sheet_0: -323755470
+      Shadows_Sheet_1: -1486413043
+      Shadows_Sheet_2: -1116369117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
